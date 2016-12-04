@@ -1,6 +1,6 @@
 FROM java:8
 
-MAINTAINER Marcel Birkner <marcel.birkner@codecentric.de>
+MAINTAINER Pradeep <pradeep@mail.com>
 
 VOLUME /tmp
 

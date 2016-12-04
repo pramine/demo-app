@@ -10,7 +10,7 @@
 ##########################################
 # Variables
 
-JENKINS_URL=http://osswdev.codecentric.de/jenkins
+JENKINS_URL=http://osswdev.confrence.de/jenkins
 TOKEN=SecurityToken
 VERSION=$1
 
