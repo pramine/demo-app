@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cp ../thot-app/target/thot.war .
+
+ssh -i ~/.vagrant.d/insecure_private_key vagrant@192.168.98.100 "sudo rm -rf /var/lib/tomcat7/webapps/*"
+ssh -i ~/.vagrant.d/insecure_private_key vagrant@192.168.98.100 "sudo rm -rf /var/lib/tomcat7/temp/"
+ssh -i ~/.vagrant.d/insecure_private_key vagrant@192.168.98.100 "sudo rm -rf /var/lib/tomcat7/work/"
+ssh -i ~/.vagrant.d/insecure_private_key vagrant@192.168.98.100 "sudo cp /vagrant/thot.war /var/lib/tomcat7/webapps/"
+ssh -i ~/.vagrant.d/insecure_private_key vagrant@192.168.98.100 "sudo service tomcat7 restart"
+
+rm thot.war
