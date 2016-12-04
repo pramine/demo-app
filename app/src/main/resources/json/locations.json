@@ -1,0 +1,36 @@
+[
+    {
+        "shortName": "Wintergarten",
+        "description": "Wintergarten"
+    },
+    
+    {
+        "shortName": "Schauspielhaus",
+        "description": "Schauspielhaus"
+    },
+    
+    {
+        "shortName": "Quantum 1",
+        "description": "Quantum 1"
+    },
+    
+    {
+        "shortName": "Quantum 2",
+        "description": "Quantum 2"
+    },
+    
+    {
+        "shortName": "Quantum 3",
+        "description": "Quantum 3"
+    },
+    
+    {
+        "shortName": "Quantum 4",
+        "description": "Quantum 4"
+    },
+    
+    {
+        "shortName": "Rotunde",
+        "description": "Rotunde"
+    }
+]
